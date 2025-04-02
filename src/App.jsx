@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
+import TodoList from './Components/TodoList';
 
 function App() {
   
 
   return (
     <>
-      <div className=' text-3xl font-serif '>basic-todo list app</div>
+     <TodoList/>
       
     </>
   );
